@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+
+
+  padding: 0px;
+  margin: 0px;
+ 
+ 
+
+
+
+}
+
+main {
+  flex: 1;
+  /* Ocupa todo espaço disponível */
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+
+  margin-top: 0px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+
+}
+
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+
+  margin-top: 0px;
+}
+
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(10, 157, 255, 0.959);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  box-sizing: border-box;
+  margin-top: auto;
+
+
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0px);
+
+  }
+
+  50% {
+    transform: translateY(+20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+ 
+
+
+
+.menu {
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+
+  width: auto;
+
+
+
+}
+
+.ag {
+
+
+  font-family: 'Raleway', sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.btn-inicial {
+  background-color: #2eb3e7c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -110px;
+  left: -500px;
+  
+  margin: 20px;
+  width: 400px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+    
+  
+}
+.btn-inicial:hover{
+  background-color:#1039f0c9 ;
+  transition: 1s;
+}
+
+.navegacao {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  padding-left: 300px;
+
+  width: 100%;
+  height: 40px;
+  background-color: rgba(10, 157, 255, 0.959);
+
+}
+
+.mensagem {
+  position: relative;
+  margin: auto;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  width: 100%;
+ 
+  
+
+
+}
+
+.mensagem p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 2.2rem;
+
+
+}
+
+.mensagem h3 {
+  text-align: center;
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.slide{
+    position: relative;
+  margin: auto;
+    
+ 
+  text-align: center;
+
+ 
+  bottom: 0px;
+  right: 40px;
+  width: 50%;
+    max-width: 500px;   
+    min-width: 200px;   
+    height: auto;     
+   
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  border-radius: 5px;
+
+          
+}
+.icon-cirurgia{
+  width: 70px;
+}
+.icon-oncologia{
+    width: 100px;
+    
+}
+.icon-dermatologia{
+  width: 100px;
+  
+}
+.icon-ultra{
+  width: 100px;
+}
+.icon-radiografia{
+  width: 100px;
+}
+.icon-hemograma{
+  width: 100px;
+  padding-top: 20px;
+}
+.icon-urina-fezes{
+   width: 100px;
+}
+.btn {
+
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+
+  text-align: justify;
+     animation-name: out 2s infinite ease-in-out;
+  
+  background: none;
+  color: aliceblue;
+
+
+
+
+}
+
+.imagem-container {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  border-radius: 10px;
+  box-shadow:
+    8px 8px 16px #2a4a79,
+    -8px -8px 16px #6a7d86;
+
+}
+
+
+.rodape {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mapa {
+
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border: none;
+  margin-left: 700px;
+}
+
+.informacoes {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+
+
+
+}
+
+
+
+.contato {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  right: 250px;
+             
+ 
+ 
+}
+.contato img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+.contato-icons{
+  display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.contato img:hover {
+    transform: scale(1.1);
+}
+
+ 
+
+.instagram {
+  width: 20px;
+  height: 20px;
+  animation: wave 2s infinite ease-in-out;
+
+}
+.instagram-inicial {
+ width: 20px;
+  height: 20px;
+  text-align: left;
+  padding-right: 4px;
+
+}
+
+.whatsApp-inicial {
+  width: 20px;
+  height: 20px;
+  text-align: left;
+  padding-right: 4px;
+  
+  
+}
+
+.whatsApp {
+  width: 60px;
+  height: 50px;
+   animation: wave 2s infinite ease-in-out;
+   animation-delay: 0.1s;
+}
+
+
+
+.email {
+  width: 60px;
+  height: 50px;
+  animation: wave 2s infinite ease-in-out;
+   animation-delay: 0.2s;
+}
+
+.instagram{
+  width: 60px;
+  height: 50px;
+ 
+}
+
+
+.consultas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: center;
+
+
+
+}
+
+.servico-item {
+
+  color: black;
+
+  width: 250px;
+  height: 250px;
+
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  border-radius: 10px;
+  box-shadow:
+    8px 8px 16px #2a4a79,
+    -8px -8px 16px #6a7d86;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family:   'Raleway', sans-serif;
+
+
+
+  cursor: pointer;
+
+
+}
+
+.servico-item:hover {
+  transform: scale(1.2);
+}
+
+.sobre {
+  text-align: left;
+  font-family:   'Raleway', sans-serif;
+  font-size: 1.5rem;
+   
+
+}
+
+.sobre-container {
+  width: 75%;
+  height: 20%;
+  margin-left: auto;
+  position: relative;
+  top: 150px;
+
+
+  border: 2px solid black;
+
+}
+
+.sobre-mim {
+  text-align: center;
+  margin-top: -2px;
+  width: 100%;
+  margin-bottom: 30px;
+font-family:   'Raleway', sans-serif;
+font-size: 2.5rem;
+  display: inline-block;
+  padding: 0 20px;
+  border: 2px solid black;
+
+}
+
+.sobre-imagem {
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 450px;
+  bottom: 350px;
+  
+   
+  
+   
+  border: 2px solid black;
+  overflow: hidden;
+ 
+}
+
+
+
+
+
+.sobre-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.entre-contato {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.contato-mensagem {
+
+  position: relative;
+  margin: auto;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  padding: 10px;
+
+}
+
+.redes-sociais {
+
+  
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.destaque-central {
+  background: linear-gradient(135deg, rgba(10, 157, 255, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+
+  text-align: center;
+  margin: 60px 0;
+  border-top: 3px solid rgba(10, 157, 255, 0.3);
+  border-bottom: 3px solid rgba(10, 157, 255, 0.3);
+}
+
+
+#marca {
+  width: 350px;    
+  height: 250px;   
+   position: relative;
+   top: 60px;
+  
+  border-radius: 10px;
+  background: transparent;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+ 
+
+
+#agendar {
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  left: 5px;
+  bottom: 7px;
+
+
+
+
+
+}
+
+#servicos {
+  width: 30px;
+  height: 30px;
+
+
+
+}
+
+#contatos {
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  left: 5px;
+  bottom: 7px;
+
+
+
+
+}
+
+#sobre {
+  width: 30px;
+  height: 30px;
+  float: right;
+  position: relative;
+  left: 5px;
+  bottom: 7px;
+
+
+
+}
+
+ 
+ 

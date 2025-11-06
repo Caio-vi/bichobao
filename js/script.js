@@ -94,7 +94,7 @@ window.addEventListener('load', function() {
 });
 
 function agendar() {
-  window.location.href = "agendar.html";
+  window.location.href = "Agendar.html";
 }
 
 function agendarWhatsApp(servico) {
@@ -120,9 +120,9 @@ function agendarWhatsApp(servico) {
 }
 
 function sobre() {
-  window.location.href = "sobre.html";
+  window.location.href = "Sobre.html";
 }
 
 function contatos() {
-  window.location.href = "contato.html";
+  window.location.href = "Contato.html";
 }

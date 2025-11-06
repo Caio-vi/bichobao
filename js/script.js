@@ -96,7 +96,7 @@ window.addEventListener('load', function() {
 });
 
 function agendar() {
-  window.location.href = "../html/agendar.html";
+  window.location.href = "agendar.html";
 }
 function agendarWhatsApp(servico) {
   // Objeto com mensagens para cada serviço
@@ -126,8 +126,8 @@ function agendarWhatsApp(servico) {
   window.open(url, "_blank");
 }
 function sobre() {
-  window.location.href = "../html/Sobre.html";
+  window.location.href = "Sobre.html";
 }
 function contatos() {
-  window.location.href = "../html/Contato.html";
+  window.location.href = "Contato.html";
 }

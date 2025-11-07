@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/estilo.css">
-    <link rel="stylesheet" href="Css/mobile.css" media="(max-width: 1023px)">
+    <link rel="stylesheet" href="css/estilo.css">  
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width: 1023px)">
+   
     <title>Agendar Consulta - Bicho Bão</title>
     <link rel="shortcut icon" href="imagens/logo.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <main class="menu">
+    <!-- HEADER -->
+    <header class="menu"> 
         <a href="index.html">
             <img src="imagens/marca.png" id="marca">
         </a>
-        <div>
+
+        <div class="contato-topo">
             <a href="https://wa.me/5535998181384?text=Olá! Gostaria de informações sobre consultas" target="_blank"
                 title="Fale conosco no WhatsApp" class="btn-inicial">
                 <img src="imagens/icons8-whatsapp-logo-48.png" class="whatsApp-inicial">
@@ -24,6 +27,7 @@
                 <img src="imagens/icons8-instagram-logo-50.png" class="instagram-inicial"> @bichobaogxp
             </a>
         </div>
+
         <nav class="navegacao">
             <button class="btn" onclick="agendar()">Agendar consulta</button>
             <button class="btn" onclick="sobre()">Sobre</button>
@@ -37,69 +41,65 @@
                 </a>
             </div>
         </nav>
-    </main>
-    
-    <p class="ag">Agendar Consulta</p>
-    
-    <div class="consultas">
-        <div class="servico-item" onclick="agendarWhatsApp('consulta')">
-            Consulta
-            <img src="imagens/icons8-dr-80.png" class="icon-consulta">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('cirurgia')">
-            Orçamento cirurgia
-            <img src="imagens/cirurgia.png" class="icon-cirurgia">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('oncologia')">
-            Consulta oncologia
-            <img src="imagens/icons8-oncology-64.png" class="icon-oncologia">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('dermatologia')">
-            Consulta dermatologia
-            <img src="imagens/dermatology.png" class="icon-dermatologia">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('silvestres')">
-            Consulta de animais Silvestres
-            <img src="imagens/icons8-rabbit-100.png" class="icon-silvestres">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('vacinacao')">
-            Vacinação
-            <img src="imagens/icons8-injection-64.png" class="icon-vacinacao">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('ultra')">
-            Ultrassonografia
-            <img src="imagens/ultrassom.png" class="icon-ultra">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('radiografia')">
-            Radiografia
-            <img src="imagens/radiology_70dp_000000_FILL0_wght400_GRAD0_opsz48.png" class="icon-radiografia">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('hemograma')">
-            Hemograma
-            <img src="imagens/icons8-blood-96.png" class="icon-hemograma">
-        </div>
-        <div class="servico-item" onclick="agendarWhatsApp('urina-fezes')">
-            Exames de Urina e Fezes
-            <img src="imagens/icons8-exam-64.png" class="icon-urina-fezes">
-        </div>
-    </div>
+    </header>
 
+    
+    <main>
+         
+         
+         
+          
+            
+
+  <p class="contato-mensagem">
+
+                  <img src="imagens/Avelar Fotografia-1622.jpg" class="slide">
+
+
+            Entre em contato conosco para agendar uma consulta ou esclarecer suas dúvidas.<br>
+            Estamos aqui para ajudar você e seu pet
+        </p>
+        
+
+
+
+
+         <div class="redes-sociais">
+            <a href="https://www.instagram.com/bichobaogxp/" target="_blank">
+                <img src="imagens/icons8-instagram-logo-100.png" class="instagram">
+            </a>
+            <a href="mailto:helbert.valverde@ufv.br" target="_blank"
+               title="Envie um email para nós">
+                <img src="imagens/icons8-email-50.png" class="email" alt="Email">
+            </a>
+            <a href="https://wa.me/5535998181384?text=Olá! Gostaria de informações sobre consultas" 
+               target="_blank" title="Fale conosco no WhatsApp">
+                <img src="imagens/icons8-whatsapp-logo-96.png" class="whatsApp" alt="WhatsApp">
+            </a>
+        </div>
+
+      
+       
+    </main>
+
+    <!-- FOOTER -->
     <footer>
-        <p class="informacoes">Bicho Bão Clínica Veterinária - Helbert Valverde
-            Praça Dona Suzana Barbosa, 91 - Centro, Guaxupé - MG, 37834-015<br>
+        <p class="informacoes">
+            Bicho Bão Clínica Veterinária - Helbert Valverde<br>
+            Praça Dona Suzana Barbosa, 91 - Centro, Guaxupé - MG, 37834-015<br> 
             <br>
-            Horários: De segunda a sexta Das 8h às 11:30h - 13 as 18
+            Horários: De segunda a sexta Das 8h às 11:30h - 13 as 18<br>
             Sábados Das 09:00h as 13:00h
         </p>
 
-        <div class="rodape">
-            <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.592097650657!2d-46.7165306!3d-21.3037369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b64f5e3a15dbb9%3A0x9d87e542a36ae2cc!2sBicho%20B%C3%A3o%20Cl%C3%ADnica%20Veterin%C3%A1ria%20-%20Helbert%20Valverde!5e0!3m2!1spt-BR!2sbr!4v1691096857587!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="rodape">   
+            <iframe class="mapa" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.592097650657!2d-46.7165306!3d-21.3037369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b64f5e3a15dbb9%3A0x9d87e542a36ae2cc!2sBicho%20B%C3%A3o%20Cl%C3%ADnica%20Veterin%C3%A1ria%20-%20Helbert%20Valverde!5e0!3m2!1spt-BR!2sbr!4v1691096857587!5m2!1spt-BR!2sbr" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
     </footer>
-    
-    <script src="js/script.js"></script>
+     <script src="js/script.js"></script>
 </body>
 </html>
